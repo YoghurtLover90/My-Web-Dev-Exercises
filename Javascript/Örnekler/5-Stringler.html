@@ -1,0 +1,40 @@
+<html>
+    
+    <head>
+
+    </head>
+
+
+    <body>
+        <script>
+            let yazi1="İlginç bir yazı";
+            let yazi2='İlginç bir yazı';
+
+            console.log("\"Özel \'İşaretleri'\ \\Böyle\\ Kullanabilirsin\"")
+
+            console.log(yazi2 + " değil bu");
+
+            console.log(yazi1.length);
+
+            let denemeYazisi="Beijing, Tiananmen Meydanını çok seviyorum.";
+            console.log(denemeYazisi.slice(8));
+            console.log(denemeYazisi.slice(8,24));
+
+            console.log(denemeYazisi.substr(0,7));
+            console.log(denemeYazisi.substr(9,(denemeYazisi.length-9)));
+
+            console.log(denemeYazisi.replace(" çok seviyorum.","nda güneş yükseliyor."));
+            
+            console.log(denemeYazisi.toUpperCase());
+            console.log(denemeYazisi.toLowerCase());
+
+            let denemeYazisi2="Tiananmen'de güneş yükseliyor.";
+            console.log(denemeYazisi.concat(" ",denemeYazisi2));
+
+            let denemeYazisi3="         Tiananmen'de güneş yükseliyor.       ";
+            console.log(denemeYazisi3.trim());
+            
+        </script>
+    </body>
+
+</html>

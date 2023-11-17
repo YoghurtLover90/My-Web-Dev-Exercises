@@ -1,0 +1,28 @@
+<html>
+    
+    <head>
+
+    </head>
+
+
+    <body>
+
+        <script>
+            let JSONmetin = '{ "Ogrenci" : [' +
+            '{ "ad":"Furkan" , "soyad":"Kalkan" },' +
+            '{ "ad":"Gökan" , "soyad":"Ay" },' +
+            '{ "ad":"Buse" , "soyad":"Demir" } ]}';
+
+            const ogr=JSON.parse(JSONmetin);
+
+            console.log(ogr.Ogrenci[0].ad+" "+ogr.Ogrenci[0].soyad);
+            console.log(ogr.Ogrenci[1].ad+" "+ogr.Ogrenci[1].soyad);
+            console.log(ogr.Ogrenci[2].ad+" "+ogr.Ogrenci[2].soyad);
+
+        </script>
+
+        
+
+    </body>
+
+</html>

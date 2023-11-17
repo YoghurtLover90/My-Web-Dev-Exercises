@@ -1,0 +1,36 @@
+<html>
+    
+    <head>
+
+    </head>
+
+
+    <body>
+        <script>
+            class Kare{
+                constructor(kenar){
+                    this.Kenar=kenar;
+                }
+
+                get getKenar(){
+                    return this.Kenar;
+                }
+                set setKenar(kenar){
+                    this.Kenar=kenar;
+                }
+
+                get Alan(){
+                    return this.Kenar*this.Kenar;
+                }
+            }
+
+            let k1=new Kare(4);
+            console.log(k1.Alan);
+            k1.setKenar=7;
+            console.log(k1.getKenar);
+            console.log(k1.Alan);
+
+        </script>
+    </body>
+
+</html>

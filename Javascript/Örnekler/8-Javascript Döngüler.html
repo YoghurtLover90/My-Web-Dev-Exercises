@@ -1,0 +1,45 @@
+<html>
+    
+    <head>
+
+    </head>
+
+
+    <body>
+        <script>
+            //1
+            function oEkleyici(oSayisi){
+                let s="";
+                for(let i=0;i<oSayisi;i++){
+                    s+="o";
+                }
+                return s;
+            }
+            console.log("Sesim yankılanıyor...");
+            for(let i=0;i<5;i++){
+                console.log("Yankılanıy"+oEkleyici(i)+"or...");
+            }
+            console.log("\n");
+
+            //2
+            let sayi=0;
+            while(sayi<1000){
+                sayi+=(Math.random()*10);
+            }
+            console.log(sayi);
+            console.log("\n");
+
+            //3
+            let yazi="";
+            let j=0;
+            do{
+                yazi+="Tekrar ";
+                j++;
+            }
+            while(j < 5);
+            console.log(yazi);
+            
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,34 @@
+<html>
+    
+    <head>
+
+    </head>
+
+
+    <body>
+
+        <script>
+            
+            function Kontrol(regex,kont){
+                if(kont){
+                    console.log(regex + " Vardır");
+                }
+                else{
+                    console.log(regex + " Yoktur");
+                }
+            }
+            const s="\"İyi Günler\"";
+            const regex1=/İyi Günler/;
+            const regex2=/Kötü Günler/;
+            console.log("s cümlesinde,");
+            let Varsa = regex1.test(s);
+            let Varsa1=regex2.test(s);
+            Kontrol(regex1,Varsa);
+            Kontrol(regex2,Varsa1);
+
+        </script>
+
+
+    </body>
+
+</html>
